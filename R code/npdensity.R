@@ -59,8 +59,9 @@ npdensity.lpp <- function(X,sigma,rp=10,dimyx=NULL,delta=4){
   values <- npintlpp 
   Z <- lineimage
   Z[pixelcentres] <- values
-  df <- cbind(projdata, values)
-  density.diggle.lpp <- linim(L, Z, df=df)
+  # df <- cbind(projdata, values)
+  # density.diggle.lpp <- linim(L, Z, df=df)
+  density.diggle.lpp <- linim(L, Z)
   
   return(density.diggle.lpp)
 }

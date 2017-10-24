@@ -58,6 +58,6 @@ Temporary Items
 *~
 *.*.ptd
 *.Rhistory
-R/simulation/.*.Rhistory
+Castellon/.*.Rhistory
 *.synctex
 paper1/.*.synctex

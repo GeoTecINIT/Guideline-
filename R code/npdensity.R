@@ -65,3 +65,4 @@ npdensity.lpp <- function(X,sigma,rp=10,dimyx=NULL,delta=4){
   
   return(density.diggle.lpp)
 }
+
